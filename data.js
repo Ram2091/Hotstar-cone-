@@ -25,3 +25,4 @@ let movies = [
         image: 'images/slider 5.PNG'
     }
 ]
+
