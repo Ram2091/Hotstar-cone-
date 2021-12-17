@@ -397,22 +397,26 @@ body{
 .links{
     padding-left: 25px;
 }
+
 .links a{
     color: white;
     text-decoration: none;
     padding: 10px;
     font-size: small;
 }
+
 .content{
     color: white;
     padding:10px 25px;
     font-size: small;
 }
+
 .social p{
     text-align: center;
     margin-left: 400px;
     color: white;
 }
+
 .social-logo{
     text-align: center;
     margin-left: 400px;
@@ -421,12 +425,14 @@ body{
    font-size: 30px;
    color: white;
 }
+
 .dis{
     float: right;
     position: relative;
     bottom: 10px;
     padding-right: 25px;
     }
+
     .play img{
     width: 100px;
     height: 35px;
