@@ -200,6 +200,7 @@ body{
     margin-top: 30px;
     opacity: 0.8;
 }
+
 .video-card-container{
     position: relative;
     width: 92%;
@@ -234,6 +235,7 @@ body{
 .video-card:hover .video-card-image{
     display: none;
 }
+
 .title{
     color: #fff;
     opacity: 0.9;
