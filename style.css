@@ -114,10 +114,12 @@ body{
     font-weight: 500;
     transition: .5s;
 }
+
 .search-box:focus{
     width: 400px;
     border-color:#1f80e0 ;
 }
+
 .sub-btn{
     background: #1f80e0;
     height: 30px;
