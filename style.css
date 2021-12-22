@@ -392,6 +392,41 @@ body{
     opacity: 1;
 }
 
+.video-card-container {
+    position: relative;
+    width: 92%;
+    margin: auto;
+    height: 10vw;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.video-card {
+    position: relative;
+    min-width: calc(100%/5 - 10px);
+    width: calc(100%/5 - 10px);
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #030b17;
+}
+
+.video-card-image,
+.card-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-video {
+    position: absolute;
+}
+
+.video-card:hover .video-card-image {
+    display: none;
+}
+
 .fotter{
     width: 100%;
     height: 100px; 
@@ -444,4 +479,72 @@ body{
     float: right ;
     position: relative;
     bottom: 70px;
+    }
+
+    @media screen and (max-width:1156px) {
+        .title {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width:640px) {
+        .login-link {
+            display: none;
+        }
+    
+        .search-box {
+            display: none;
+        }
+    
+        .slide-content h1, p {
+            display: none;
+        }
+    
+        .slide-content {
+            display: none;
+        }
+    
+        .slider img {
+            width: 100%;
+            /* min-height: 100%;
+        object-fit: cover;
+        display: block; */
+    
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .mobile-footer {
+            width: 100%;
+            height: 50px;
+            background-color: #0c111b;
+            padding: 0px 25px;
+            position: fixed;
+            bottom: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            color: white;
+        }
+        .gap{
+          text-align: center;
+        }
+    
+        .mobile-footer h3 {
+            display: flex;
+        }
+    
+        .fott-logo {
+            height: 30px;
+            width: 90%;
+        }
+    
+        .title {
+            display: none;
+        }
+    
+        .fotter {
+            display: none;
+        }
     }
