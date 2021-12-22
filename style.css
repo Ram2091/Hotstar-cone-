@@ -203,6 +203,9 @@ body{
     margin-top: 30px;
     opacity: 0.8;
 }
+.mobile-footer {
+    display: none;
+}
 
 .video-card-container{
     position: relative;
@@ -247,13 +250,29 @@ body{
     font-size: 22px;
     font-weight: 500;
 }
-
-.movies-list{
+.fotter {
     width: 100%;
-    height: 220px;
+    height: 100px;
+    background-color: #0c111b;
+    padding: 0px 25px;
     position: relative;
-    margin: 10px 0 20px;
+    /* position: fixed;
+    bottom: 0px; */
 }
+.title {
+    color: #fff;
+    opacity: 0.9;
+    padding-left: 4%;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+}
+.movies-list {
+        width: 100%;
+        height: 220px;
+        position: relative;
+        margin: 10px 0 20px;
+    }
 
 .card-container{
     position: relative;
