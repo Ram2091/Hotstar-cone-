@@ -83,6 +83,7 @@ cardContainers.forEach((item, i) => {
     })
 
     preBtns[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth + 200;
+        item.scrollLeft += containerWidth + 200;
     })
-})
+}
+)
